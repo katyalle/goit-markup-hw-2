@@ -9,9 +9,8 @@
 
 }
 
-.body{
+body{
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway",sans-serif;
     color: var(--color-b);
     background-color: var(--color-button-white);
     line-height: 2;

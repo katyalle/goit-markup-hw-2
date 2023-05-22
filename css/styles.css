@@ -34,7 +34,13 @@ ol {
 img {
   display: block;
 }
+.header{
+    border-bottom: 1px solid #e7e9fc 
+}
 .container{
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
     outline: 2px solid var(--background-color);
 }
 .header-div{
@@ -42,6 +48,8 @@ img {
 }
 .header-nav{
     display: flex;
+    align-items: center;
+    padding: 24px 0
 }
 .header-list{
     display: flex;
@@ -74,6 +82,8 @@ color: var(--background-color);
     color: var(--color-ocean);
 }
 .contacts{
+    display: flex;
+    gap: 40px;
     font-style: normal;
 
 }

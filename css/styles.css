@@ -41,7 +41,6 @@ img {
 }
 .container{
     display: flex;
-
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px;
@@ -202,14 +201,15 @@ background-color: #4D5AE5;
 color: #FFFFFF;
 cursor: pointer;
 border: 1px solid var(--color-nb);
-border-radius: 5px;
+border-radius: 4px;
 margin-right: auto;
     margin-left: auto;
 }
 .btn{
     min-width: 169px;
     height: 56px;
-    
+    border: none; 
+
     display: block;
     
     
@@ -236,7 +236,9 @@ background-color: var(--color-ocean);
 
 
 
-
+.hero{
+    padding: 120px 0;
+}
 .hero-benefits{
     font-family: 'Roboto';
 font-style: normal;
@@ -271,16 +273,33 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-
+ .hero-benefit-third{
+        display: flex;
+        align-content: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize ;
+        color:var(--background-color);
+        display: flex;
+        margin-bottom: 72px;
+        margin-top: 120px;
+        
+    }
 
 
 
 .three-photo{
     display: flex;
-    justify-content: center;
     gap: 24px;
-    
+}
 
+
+.photo{
+    padding-bottom: 120px; 
 }
 
 
@@ -302,6 +321,7 @@ color: #434455;
         background-color: var(--background-color-sec);
         display: flex;
         height: 312px;
+        padding: 120px 0;
     }
    
     .team-photo{
@@ -312,27 +332,10 @@ color: #434455;
     }
    
     
-    .hero-benefit-third{
-        display: flex;
-        justify-content: center;
-        flex-grow: 1;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize ;
-        color:var(--background-color);
-        display: flex;
-        
-        margin-bottom: 72px;
-        margin-top: 120px;
-        
-    }
+   
     .icon{
         background-color: var(--color-button-white);
+        border-radius: 0px 0px 4px 4px;
             }
 
     .footer{
@@ -341,6 +344,7 @@ color: #434455;
         Width: 1440px;
         Height:312px;
         background-color: var(--background-color);
+        padding: 100px 0 
             }
  
  

@@ -297,16 +297,15 @@ color: #434455;
         
     }
 
-.d-photo{
-    width: calc((100% - 72px) / 4);
-}
 
 .three-photo{
     display: flex;
     gap: 24px;
 }
 
-
+.axx{
+    width: calc((100% - 72px) / 4); 
+}
 .photo{
     padding-bottom: 120px; 
 }

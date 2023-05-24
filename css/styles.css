@@ -131,7 +131,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--background-color);
 }
-.hidden{
+
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -280,7 +281,8 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
- .hero-benefit-third{
+
+ .hero-title-third{
         display: flex;
         align-content: center;
         margin-bottom: 72px;
@@ -292,12 +294,8 @@ color: #434455;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize ;
-        color:var(--background-color);
-        
-        
-        
+        color:var(--background-color);    
     }
-
 
 .three-photo{
     display: flex;
@@ -308,9 +306,8 @@ color: #434455;
     padding-bottom: 120px; 
 }
 
-.o-o{
-    display: flex;
-    width: calc((100% - 72px) / 4);
+.li-photo{
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -447,4 +444,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+    }
+    .p-btn{
+        display: flex;
+        justify-content: center;
+
+    }
+    .c-portfolio{
+        padding-top: 96px;
     }

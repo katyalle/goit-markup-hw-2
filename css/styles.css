@@ -321,16 +321,13 @@ color: #434455;
     gap: 24px;
 }
 
-.photo{
-    padding-bottom: 120px; 
-}
-
 .li-photo{
     width: calc((100% - 48px) / 3);
 }
 
-
-
+.photo{
+    padding-bottom: 120px; 
+}
 
     
 

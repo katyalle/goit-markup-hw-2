@@ -98,6 +98,7 @@ color: var(--background-color);
     display: flex;
     gap: 40px;
     font-style: normal;
+    padding: 24px 0
 
 }
 .header-logo{
@@ -239,6 +240,7 @@ background-color: var(--color-ocean);
 
 .hero{
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 }
 .hero-benefits{
     font-family: 'Roboto';
@@ -249,6 +251,8 @@ line-height: 1.2;
 margin-bottom: 8px;
 letter-spacing: 0.02em;
 color: var(--background-color);
+width: calc((100% - 72px) / 4);
+text-align: center;
 }
 
 .hero-container{
@@ -261,7 +265,9 @@ color: var(--background-color);
 display: flex;
 gap: 24px;
 margin: 120px 156px;
+
 }
+
 
 
 .hero-p{
@@ -331,6 +337,11 @@ color: #434455;
         gap: 24px;
 
     }
+    .ot-list{
+        display: flex;
+        align-items: center;
+        padding: 32px 16px;
+    }
    
     
    
@@ -346,6 +357,9 @@ color: #434455;
         Height:312px;
         background-color: var(--background-color);
         padding: 100px 0 
+            }
+            .d-footer{
+                display: inline-block; 
             }
  
  

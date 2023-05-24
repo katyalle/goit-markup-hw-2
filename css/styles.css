@@ -235,7 +235,9 @@ background-color: var(--color-ocean);
 
 
 
-
+.cont-hero{
+    width: calc((100% - 72px) / 4)
+}
 
 
 
@@ -281,11 +283,24 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-
+.photo-titlet{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 72px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize ;
+    color:var(--background-color);     
+}
  .hero-title-third{
+        margin-bottom: 72px; 
         display: flex;
         align-content: center;
-        margin-bottom: 72px;
         margin-top: 120px;
         font-family: 'Roboto';
         font-style: normal;
@@ -347,6 +362,7 @@ color: #434455;
     .icon{
         background-color: var(--color-button-white);
         border-radius: 0px 0px 4px 4px;
+        width: calc((100% - 72px) / 4);
             }
 
     .footer{

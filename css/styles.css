@@ -283,6 +283,8 @@ color: #434455;
  .hero-benefit-third{
         display: flex;
         align-content: center;
+        margin-bottom: 72px;
+        margin-top: 120px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -291,9 +293,8 @@ color: #434455;
         letter-spacing: 0.02em;
         text-transform: capitalize ;
         color:var(--background-color);
-        display: flex;
-        margin-bottom: 72px;
-        margin-top: 120px;
+        
+        
         
     }
 
@@ -303,14 +304,14 @@ color: #434455;
     gap: 24px;
 }
 
-.axx{
-    width: calc((100% - 72px) / 4); 
-}
 .photo{
     padding-bottom: 120px; 
 }
 
-
+.o-o{
+    display: flex;
+    width: calc((100% - 72px) / 4);
+}
 
 
 

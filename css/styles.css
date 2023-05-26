@@ -26,6 +26,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  padding: 0;
 }
 
 ul,
@@ -36,6 +37,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list{
@@ -54,10 +56,9 @@ img {
     padding-bottom: 24px;
     outline: 2px solid var(--background-color);
     display: flex;
+    padding: 0 15px;
 }
 .header-div{
-    padding-top: 24px; 
-    padding-bottom: 24px;
     display: flex;
 }
 .header-nav{
@@ -77,6 +78,9 @@ img {
     display: flex;
     gap: 40px;
 }
+.header-li{
+    padding: 24px 0;
+}
 .header-link{
     
 font-family: 'Roboto', sans-serif;
@@ -85,7 +89,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--background-color);
+color: var(--background-color)
 }
 
 .header-link-second:hover{
@@ -318,19 +322,24 @@ color: #434455;
 
 
 .photo-title{
+    
     font-family: 'Roboto';
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize ;
     color:var(--background-color); 
     text-align: center; 
+    margin: 0 auto;
     margin-bottom: 72px;  
 }
 
 .three-photo{
-
  display: flex;
- gap: 24px;
+justify-content: center;
+ margin-right: 24px
+}
+.three-photo:last-child{
+    margin-right: 0;
 }
 
 .li-photo{
@@ -364,12 +373,12 @@ color: #434455;
     margin-bottom: 8px;
     
 }
-.images{
+/* .images{
     display: flex;
         align-items: center;
         
     
-}
+} */
     
    
     .team-photo{

@@ -56,7 +56,7 @@ img {
     padding-bottom: 24px;
     outline: 2px solid var(--background-color);
     display: flex;
-    padding: 0 15px;
+    
 }
 .header-div{
     display: flex;
@@ -124,7 +124,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--color-nb);
 margin-right: 76px;
-padding-left: 156px;
 }
 
 .header-logo-second{
@@ -274,8 +273,6 @@ text-align: center;
 
 .hero-container{
     display: flex;
-    
-
 }
 
 .hero-list{
@@ -336,11 +333,9 @@ color: #434455;
 .three-photo{
  display: flex;
 justify-content: center;
- margin-right: 24px
+gap: 24px;
 }
-.three-photo:last-child{
-    margin-right: 0;
-}
+
 
 .li-photo{
     width: calc((100% - 48px) / 3);

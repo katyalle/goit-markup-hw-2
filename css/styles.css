@@ -48,15 +48,15 @@ img {
     
 }
 .container{
-    display: flex;
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px;
     outline: 2px solid var(--background-color);
+    display: flex;
 }
 .header-div{
+    padding: 24px 0; 
     display: flex;
-    padding: 24px 0;
 }
 .header-nav{
     display: flex;
@@ -66,10 +66,6 @@ img {
 .contacts{
     
     margin-left: auto;
-    
-
-
-    
 }
 .header-list{
     display: flex;
@@ -173,6 +169,10 @@ color: #434455;
 .list{
     list-style: none;
 }
+
+
+
+
 .ad-fone{
     display: flex;
     justify-content: center;
@@ -307,6 +307,9 @@ color: #434455;
 
 
 
+
+
+
 .photo{
     padding-bottom: 120px; 
 }
@@ -323,12 +326,13 @@ color: #434455;
 }
 
 .three-photo{
- flex-basis: calc((100% - 3 * 16px) / 3);
+
+ display: flex;
+ gap: 24px;
 }
 
 .li-photo{
-    display: flex;
-    gap: 24px;
+    width: calc((100% - 48px) / 3);
    
 }
 

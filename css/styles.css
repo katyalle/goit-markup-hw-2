@@ -50,12 +50,14 @@ img {
 .container{
     width: 1158px; 
     margin: 0 auto;
-    padding: 0 15px;
+    padding-top: 24px; 
+    padding-bottom: 24px;
     outline: 2px solid var(--background-color);
     display: flex;
 }
 .header-div{
-    padding: 24px 0; 
+    padding-top: 24px; 
+    padding-bottom: 24px;
     display: flex;
 }
 .header-nav{
@@ -346,22 +348,20 @@ color: #434455;
 
 .our-team{
         
-        padding: 32px 16px;
+    padding: 120px 0;
     }
 
 .title-team{
-    display: flex;
-    text-align: center; 
      font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
     letter-spacing: 0.02em;
     color: var(--background-color);
-    width: calc((100% - 72px) / 4);
-    
+    display: flex;
+    text-align: center;
+    margin-bottom: 8px;
     
 }
 .images{
@@ -373,9 +373,10 @@ color: #434455;
     
    
     .team-photo{
+        gap: 24px;
         display: flex;
         justify-content: center;
-        gap: 24px;
+        
 
     }
     .ot-list{
@@ -391,6 +392,28 @@ color: #434455;
         border-radius: 0px 0px 4px 4px;
         width: calc((100% - 72px) / 4);
             }
+    .emp{
+        padding: 32px 16px ;
+       ;
+
+    }
+    .ot-p{
+        font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #434455;
+       display: flex;
+       text-align: center;
+       }
+       
+
+
+
+
+
 
     .footer{
         display: flex;

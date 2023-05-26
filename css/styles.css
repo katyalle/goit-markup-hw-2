@@ -53,14 +53,16 @@ img {
     margin: 0 auto;
     padding: 0px 15px;
     outline: 2px solid var(--background-color);
-    display: flex; 
+  
 }
-.header-div{
-    display: flex;
-}
+
 .header-nav{
     display: flex;
     align-items: center;
+
+}
+.header-div{
+    display: flex;
 
 }
 .contacts{
@@ -280,10 +282,8 @@ margin: 120px 156px;
 }
 
  .hero-title-third{
-        margin-bottom: 72px; 
-        display: flex;
-        align-content: center;
-        margin-top: 120px;
+   text-align: center;
+        margin-bottom: 72px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;

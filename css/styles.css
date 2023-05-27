@@ -493,19 +493,6 @@ border-radius: nullpx;
        color: var(--color-button-white);
        background-color: var(--color-ocean);
     }
-    .button{
-     padding: 12px 24px;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    }
-
-    .portfolio-list{
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px; 
-    }
-    
     .portfolio-btn{
  font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -516,11 +503,27 @@ letter-spacing: 0.04em;
 color:var(--color-nb);
 background-color: var(--background-color-sec);
 cursor: pointer;
-    }
+   padding: 12px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    } 
+
+    .portfolio-list{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px; 
+    } 
     .p-li{
         width: calc((100% - 48px) / 3); 
     }
-    .portfolio-benefits{
+    .div-portfolio{
+    padding: 32px 16px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+    }
+    .portfolio-title{
+margin-bottom: 8px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -528,7 +531,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-bottom: 8px;
+
     }
     .portfolio-p{
         font-family: 'Roboto';
@@ -545,8 +548,4 @@ color: #434455;
     gap: 24px;
     margin-bottom: 72px;
   }
-  .div-portfolio{
-    padding: 32px 16px;
-    border: 1px solid var(--border-color);
-    border-top: none;
-  }
+ 

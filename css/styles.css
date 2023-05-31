@@ -419,6 +419,17 @@ gap: 24px;
 
 
 
+
+
+
+
+
+
+
+.five{
+    padding: 120px 0;
+}
+
 .title-five{
     font-family: 'Roboto';
 font-style: normal;
@@ -433,6 +444,32 @@ text-transform: capitalize;
 color: var(--background-color);
 margin-bottom: 72px;
 }
+.ul-five{
+    display: flex;
+    gap: 24px;
+}
+.li-five{
+
+}
+
+.svg-five{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     .footer{

@@ -449,16 +449,35 @@ margin-bottom: 72px;
     gap: 24px;
 }
 .li-five{
-
+ width: calc((100% - 120px) / 6);
 }
 
 .svg-five{
-    width: calc((100% - 120px) / 6);
+   
     height: 88px;
 }
+.link-five{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #404BBF;
+}
+
+.link-five:hover{
+    border-color: #404bbf; 
+    color: #404bbf;
+}
+    
 
 
-
+.link-five:focus{
+    border-color: #404bbf; 
+    color: #404bbf;
+}
 
 
 
@@ -699,4 +718,18 @@ color: #434455;
     gap: 24px;
     margin-bottom: 72px;
   }
- 
+  .button:hover{
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  }
+  .button:focus{
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  }
+  .portfolio-link{
+    display: block;
+  }
+  .portfolio-link:hover{
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  }
+  .portfolio-link:focus{
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+  }

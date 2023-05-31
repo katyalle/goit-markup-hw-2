@@ -435,7 +435,7 @@ gap: 24px;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11px;
+line-height: 1.11;
 
 text-align: center;
 letter-spacing: 0.02em;
@@ -449,12 +449,15 @@ margin-bottom: 72px;
     gap: 24px;
 }
 .li-five{
- width: calc((100% - 120px) / 6);
+ width: calc((100% - 120px) / 6); 
+ height: 88px;
 }
 
 .svg-five{
+    fill: currentColor; 
+
    
-    height: 88px;
+   
 }
 .link-five{
     width: 100%;
@@ -464,7 +467,8 @@ margin-bottom: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #404BBF;
+    color: #8e8f99;
+    
 }
 
 .link-five:hover{
@@ -718,10 +722,10 @@ color: #434455;
     gap: 24px;
     margin-bottom: 72px;
   }
-  .button:hover{
+  .btn-p:hover{
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
   }
-  .button:focus{
+  .btn-p:focus{
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
   }
   .portfolio-link{

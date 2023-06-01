@@ -546,8 +546,17 @@ border-radius: nullpx;
     color: var(--background-color-sec);
     letter-spacing: 0.02em;
 }
+.p-footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
 
-
+.d-footer
 
 
 
@@ -627,8 +636,9 @@ background-color: var(--color-ocean);
 .social-list-icon:focus{
  background-color: var(--color-ocean);
 }
+
 .svg-color{
-    fill: var(--background-color-sec);
+    fill: var(--color-button-white);
 }
 .sec-five{
     display: flex;

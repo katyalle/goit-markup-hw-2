@@ -280,9 +280,16 @@ width: calc((100% - 72px) / 4);
 text-align: center;
 }
 
-.hero-container{
+.title-list-inform{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-color: var(--background-color-sec);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
+
 
 .hero-list{
 display: flex;
@@ -503,11 +510,16 @@ margin-bottom: 72px;
         background-color: var(--background-color);
         padding: 100px 0 
             }
-            .d-footer{
-                display: inline-block; 
-            }
+
+ .d-footer{ 
+     display: inline-block; 
+     display: flex;
+     align-items: baseline;
+  }
  
- 
+ .div-link{
+    margin-right: 120px;
+ }
 
 .footer-logo{
     font-family: 'Raleway', sans-serif;
@@ -531,6 +543,10 @@ margin-bottom: 72px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.footer-li{
+    width: 40px;
+    height: 40px;
+}
 .footer-p{
     height: 72px;
 width: 264px;
@@ -547,6 +563,7 @@ border-radius: nullpx;
     letter-spacing: 0.02em;
 }
 .p-footer{
+    margin-bottom: 16px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -554,9 +571,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+
 }
 
-.d-footer
+.d-footer{
+
+}
 
 
 
@@ -593,7 +613,7 @@ padding: 32px 0px;
 .social-list{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 .social-links{
     width: 40px;
@@ -619,9 +639,10 @@ padding: 32px 0px;
 .social-li{
     width: 40px;
     height:40px;
-
+gap: 16;
 }
-.social-list-icon {
+
+.social-list-icon{
     width: 100%;
     height: 100%;
     background-color: var(--color-nb);
@@ -636,9 +657,24 @@ background-color: var(--color-ocean);
 .social-list-icon:focus{
  background-color: var(--color-ocean);
 }
+.social-list-footer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-nb);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-list-footer:hover{
+    background-color: #31d0aa;
+}
+.social-list-footer:focus{
+    background-color: #31d0aa;
+}
 
 .svg-color{
-    fill: var(--color-button-white);
+    fill: #F4F4FD;
 }
 .sec-five{
     display: flex;

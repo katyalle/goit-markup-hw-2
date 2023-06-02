@@ -629,7 +629,7 @@ padding: 32px 0px;
 .social-list-one{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .social-list{

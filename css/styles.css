@@ -387,8 +387,9 @@ gap: 24px;
    
     .team-photo{
         display: flex;
+        align-items: center;
          gap: 24px;
-       align-items: center;
+       
         
 
     }
@@ -610,11 +611,7 @@ padding: 32px 0px;
 
 
 }
-.social-list{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-}
+
 .social-links{
     width: 40px;
     height: 40px;
@@ -629,7 +626,11 @@ padding: 32px 0px;
     align-items: center;
     justify-content: center;
 } 
-
+.social-list-one{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
 
 .social-list{
     display: flex;
@@ -639,7 +640,6 @@ padding: 32px 0px;
 .social-li{
     width: 40px;
     height:40px;
-    
 }
 
 .social-list-icon{

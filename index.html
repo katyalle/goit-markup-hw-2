@@ -42,7 +42,7 @@
         <div class="ad-fone container"> 
     <h1 class="benefit">Effective Solutions
         for Your Business</h1>
-     <button  type="button" class="btn">Order Service</button>
+     <button  type="button" class="btn" data-modal-open >Order Service</button>
      </div>
 </section>
        
@@ -413,7 +413,20 @@
     </div>
   </div>        
 </footer>
-  
+
+<div class="backdrop is-hidden">
+  <div class="modal">
+    <button type="button" class="modal-close">
+      
+      <svg width="8" height="8" class="svg-modal">
+      <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+    </svg>
+
+  </button>
+  </div>
+ </div>
+
+<script src="./js/modal.js"></script>
 </body>
 </html>
 

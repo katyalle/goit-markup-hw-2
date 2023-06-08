@@ -859,3 +859,11 @@ height: 8px;
     opacity: 0;
     pointer-events:none;
   }
+
+
+
+
+/* -------------------STICK---------------------------- */
+.header-li{
+    position: relative;
+}

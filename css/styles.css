@@ -866,4 +866,19 @@ height: 8px;
 /* -------------------STICK---------------------------- */
 .header-link{
     position: relative;
+    color: var(--color-ocean);
+    transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+}
+.header-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-color: var(--color-ocean);
+    border-radius: 2px;
+
+}
+.header-link-second{
+    transition: color 250ms cubic-bezier(0.4,0,0.2,1); 
 }

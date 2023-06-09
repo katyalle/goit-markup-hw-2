@@ -840,10 +840,10 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
-  .portfolio-li:hover  .move-text {
+  .portfolio-li:hover {
 transform: translateY(0);
   }
-  .portfolio-li:focus  .move-text {
+  .portfolio-li:focus {
 transform: translateY(0);
       }
   .img-block{

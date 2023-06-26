@@ -551,7 +551,7 @@ color: #FFFFFF;
 }
 .form{
   display: flex;
-    gap: 24px;  
+  gap: 24px;  
 }
 
 .f-input{

@@ -1028,9 +1028,9 @@ line-height: 1.17;
 letter-spacing: 0.48px;
   }
    .check-span
-{
+{display: inline-flex;
+    display: block;
 width: 16px;
-display: inline-flex; 
 height: 16px;
 border-radius: 2px;
 border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
@@ -1063,7 +1063,7 @@ color: #4D5AE5;
   }
 
 .modal-field{
- margin-bottom: 8px;
+ margin-bottom: 16px;
 }
 .modal-field--{
     margin-bottom: 24px;

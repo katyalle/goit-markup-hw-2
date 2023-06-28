@@ -422,8 +422,8 @@
                         <label id="Subscribe" class="label-subscribe">
                       
                            <input 
+                     name="Subscribe"     
                      type="email"
-                     name="Subscribe"
                      class="input-sub"
                      placeholder="E-mail">
                         </label>
@@ -431,7 +431,8 @@
 
                       
                          
-                     <button type="submit" class="btn-sub"><span>Subscribe</span> <svg width="24px" height="24px" class="svg-sub">
+                     <button type="submit" class="btn-sub"><span>Subscribe</span> 
+                      <svg width="24px" height="24px" class="svg-sub">
                      <use href="./images/icons.svg#icon-Frame-3"></use>
                      </svg>
                      </button>
@@ -463,7 +464,7 @@
   <form class="modal-form">
 
     <div class="modal-field">
-      <label id="user-name" class="input-tips">Name</label>
+      <label for="user-name" class="input-tips">Name</label>
   <div class="input-wrap">
     <input
      type="text"
@@ -496,7 +497,7 @@
 </div>
 
 <div class="modal-field">
-  <label id="user-email" class="input-tips">Email</label>
+  <label for="user-email" id="user-email" class="input-tips">Email</label>
   <div class="input-wrap">
  <input 
     type="email" 
@@ -517,8 +518,8 @@
       <textarea 
       name="user-comment" 
       id="user-comment" 
-      class="modal-input-"
-      placeholder="Text input"></textarea>
+      placeholder="Text input" 
+      class="modal-input-"></textarea>
     </div>
 
 
@@ -531,7 +532,7 @@
   value="true"
   required
    class="modal-check visually-hidden"> 
-  <label id="user-privacy" class="check-text " > 
+  <label for="user-privacy" id="user-privacy" class="check-text " > 
     <span class="check-span"> 
     <svg class="check-icon" width="10" height="8">
     <use href="./images/icons.svg#icon-Vector-4"></use>
